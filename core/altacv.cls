@@ -123,8 +123,7 @@
 \fi
 
 \RequirePackage{xcolor}
-
-\colorlet{accent}{blue!70!black}
+\colorlet{accent}{blue!55!green}
 \colorlet{heading}{black}
 \colorlet{emphasis}{black}
 \colorlet{headingrule}{black}
