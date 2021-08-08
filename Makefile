@@ -30,7 +30,7 @@ GIT_IGNORES:=python,node,go,latex
 GI:=gi
 
 # issues reviewers
-REVIEWERS?=luismayta
+REVIEWERS?=aireck2
 
 # Configuration.
 SHELL ?=/bin/bash
