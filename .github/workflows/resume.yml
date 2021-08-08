@@ -21,6 +21,6 @@ jobs:
           commit_message: "ci: generate resume"
           branch: develop
           commit_options: '--no-verify --signoff'
-          commit_user_name: "@slovacus"
-          commit_user_email: "slovacus@gmail.com"
-          commit_author: "slovacus <slovacus@gmail.com>"
+          commit_user_name: "aireck2"
+          commit_user_email: "erickescriba@gmail.com"
+          commit_author: "erick <erickescriba@gmail.com>"
