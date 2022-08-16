@@ -1,4 +1,4 @@
-\ProvidesClass{core}[Luis Mayta class]
+\ProvidesClass{core}[Erick Escriba class]
 
 % Pass all other (unknown) options to altacv to handle
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{altacv}}
