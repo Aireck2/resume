@@ -1,0 +1,34 @@
+\cvsection{Skills}
+
+\cvskill{Go}{5}
+\cvskill{Python}{5}
+<<<<<<< HEAD
+\cvskill{Kubernetes}{5}
+=======
+\cvskill{Bash}{5}
+>>>>>>> c57cb0c (Initial commit)
+\cvskill{Cloud Computing}{4}
+\cvskill{AWS}{4}
+\cvskill{Infraestructure as Code}{4}
+\cvskill{Design Patterns}{4}
+\cvskill{Automation}{4}
+\cvskill{Lua}{3}
+<<<<<<< HEAD
+\cvskill{NodeJS}{3}
+\cvskill{Dart}{3}
+\cvskill{Rust}{2}
+\cvskill{Web3}{2}
+=======
+\cvskill{Node}{3}
+\cvskill{Dart}{3}
+\cvskill{Security}{3}
+\cvskill{Rust}{2}
+>>>>>>> c57cb0c (Initial commit)
+
+\cvsection{\mbox{Technical Interests}}
+\cvtag{Infraestructure as Code}
+\cvtag{monitoring and alerting}
+\cvtag{transport layer security and encryption}
+\cvtag{automation}
+\cvtag{vulnerability assessment}
+\cvtag{metrics visualization and analytics}

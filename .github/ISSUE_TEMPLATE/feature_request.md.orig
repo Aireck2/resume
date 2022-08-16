@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
+name: Feature request
+=======
 name: 🚀 Feature request
+>>>>>>> c57cb0c (Initial commit)
 about: Suggest an idea for this project
 labels: type/enhancement
 ---

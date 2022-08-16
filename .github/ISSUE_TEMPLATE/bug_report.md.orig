@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
+name: Bug report
+=======
 name: 🐛 Bug report
+>>>>>>> c57cb0c (Initial commit)
 about: Create a report to help us improve
 labels: type/bug
 ---

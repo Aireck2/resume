@@ -1,0 +1,115 @@
+default_stages:
+  - commit
+<<<<<<< HEAD
+exclude: >
+  (?x)^(
+    ^(\/|)vendor\/(.*?)$|
+    .+\.node_modules\/.*$|
+    .+\.lock$|
+  )$
+=======
+>>>>>>> c57cb0c (Initial commit)
+
+repos:
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.1.0
+    hooks:
+      - id: codespell
+        args: [--ignore-words=.codespell-ignores]
+<<<<<<< HEAD
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.0.0
+=======
+        exclude: >
+          (?x)^(
+            .+\.vendor\/.*$|
+            .+\.node_modules\/.*$|
+            .+\.lock$|
+          )$
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v5.0.0
+>>>>>>> c57cb0c (Initial commit)
+    hooks:
+      - id: commitlint
+        stages: [commit-msg]
+        additional_dependencies: ['@hadenlabs/commitlint-config']
+        args:
+<<<<<<< HEAD
+          - --config=.ci/linters/.commitlintrc.json
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+=======
+          - --config=.github/linters/.commitlintrc.json
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+>>>>>>> c57cb0c (Initial commit)
+    hooks:
+      - id: detect-private-key
+        files: ^(?!\.?git-crypt)
+        exclude: >
+          (?x)^(
+            .+\.gitleaks.toml$|
+          )$
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        files: ^tf|-|\.(py|env|yml|yaml)$
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-xml
+      - id: check-yaml
+<<<<<<< HEAD
+        args:
+          - --allow-multiple-documents
+=======
+>>>>>>> c57cb0c (Initial commit)
+      - id: check-byte-order-marker
+      - id: check-ast
+      - id: debug-statements
+      - id: check-docstring-first
+      - id: requirements-txt-fixer
+      - id: check-symlinks
+      - id: file-contents-sorter
+      - id: fix-encoding-pragma
+      - id: sort-simple-yaml
+  - repo: https://github.com/hadenlabs/pre-commit-hooks
+<<<<<<< HEAD
+    rev: e50751c9323b0a03f27271c57513f5c389f6591b
+=======
+    rev: 5a1cf2bd39307f6ea1ae8c3fa708a399ae74f6eb
+>>>>>>> c57cb0c (Initial commit)
+    hooks:
+      - id: do-not-commit
+      - id: markdown-link-check
+        args:
+<<<<<<< HEAD
+          - --config=.ci/linters/markdown-link-config.json
+=======
+          - --config=.github/linters/markdown-link-config.json
+>>>>>>> c57cb0c (Initial commit)
+        exclude: \.tpl.md$
+      - id: shellcheck
+        exclude: >
+          (?x)^(
+            .+\.provision/git/hooks/prepare-commit-msg$|
+            .+\.tpl.sh$|
+          )$
+        args:
+          - --exclude=SC1072,SC1073,SC2068
+<<<<<<< HEAD
+      - id: gitleaks
+        args:
+          - --path=.
+          - --repo-config-path=.ci/linters/.gitleaks.toml
+          - --verbose
+      - id: hadolint
+        args:
+          - --config=.ci/linters/.hadolint.yaml
+=======
+      - id: todocheck
+      - id: gitleaks
+        args:
+          - --path=.
+          - --repo-config-path=.github/linters/.gitleaks.toml
+          - --verbose
+
+>>>>>>> c57cb0c (Initial commit)

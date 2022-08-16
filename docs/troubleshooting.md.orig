@@ -1,0 +1,19 @@
+# Troubleshooting
+
+## Environment
+
+<<<<<<< HEAD
+### Wrong pre-commit with pipenv
+=======
+### Wrong pre-commit with pyenv
+>>>>>>> c57cb0c (Initial commit)
+
+Execute the next:
+
+```{.bash}
+<<<<<<< HEAD
+task environment
+=======
+make environment
+>>>>>>> c57cb0c (Initial commit)
+```
