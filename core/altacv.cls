@@ -132,7 +132,7 @@
 \colorlet{lite}{gray!80}
 \colorlet{hard}{black!60!white}
 \colorlet{name}{heading}
-\colorlet{tagline}{accent}
+\colorlet{tagline}{emphasis}
 \newcommand{\itemmarker}{{\small\textbullet}}
 \newcommand{\ratingmarker}{\faCircleS}
 
@@ -254,7 +254,7 @@
 \newcommand{\namefont}{\Huge\bfseries}
 \newcommand{\taglinefont}{\large\bfseries}
 \newcommand{\personalinfofont}{\footnotesize\bfseries}
-\newcommand{\cvsectionfont}{\LARGE\bfseries}
+\newcommand{\cvsectionfont}{\large\bfseries}
 \newcommand{\cvsubsectionfont}{\large\bfseries}
 
 \newcommand{\makecvheader}{%
